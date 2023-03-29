@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+
+#anuncio {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    .img-container {
+        img:hover {
+            opacity: 0.75;
+        }
+    }
+    .texto {
+        h3 {
+            text-transform: uppercase;
+            font-size: $tamanho-do-texto / 2.5;
+            font-weight: 300;
+            color: $cor-primaria;
+            margin-bottom: 1rem;
+        }
+        h4 {
+            font-size: $tamanho-do-texto / 1.2;
+            font-weight: 300;
+            color: $cor-secundaria;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            font-size: $tamanho-do-texto / 3;
+            font-weight: 300;
+            color: $cor-secundaria;
+            line-height: 1.25rem;
+        }
+    }
+}
